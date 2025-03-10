@@ -50,7 +50,7 @@ body {
   position: fixed;
   right: -250px;
   width: 200px;
-  height: 90%;
+  height: 98%;
   background:linear-gradient(135deg, #FD0054, #A80038);
   transition: right 0.3s ease-in-out;
   z-index: 1000;
