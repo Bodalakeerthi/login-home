@@ -159,7 +159,7 @@ const Profile = () => {
               <button onClick={handleAddAddress} className="add-btn"><FaPlus /> Add Address</button>
             )}
           </div>
-
+            <br/>
           <button onClick={handleGetCurrentLocation} className="location-btn" disabled={loading}>
             <FaLocationArrow /> {loading ? "Getting Location..." : "Use Current Location"}
           </button>
@@ -175,6 +175,7 @@ const Profile = () => {
                     <button onClick={() => handleEditAddress(index)} className="edit-btn">
                       <FaEdit />
                     </button>
+                    <br/>
                     <button onClick={() => handleDeleteAddress(index)} className="delete-btn">
                       <FaTrash />
                     </button>

@@ -563,10 +563,6 @@ button:hover {
   margin-bottom: 5px;
 }
 
-.address-buttons button {
-  margin-left: 4px;
-}
-
 .logout-btn {
   width: 100%;
   background: #2B2024;
